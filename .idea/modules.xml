@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BLERemocon.iml" filepath="$PROJECT_DIR$/BLERemocon.iml" />
+      <module fileurl="file://X:\BLE_Remocon\BLERemocon.iml" filepath="X:\BLE_Remocon\BLERemocon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BLE_Remocon.iml" filepath="$PROJECT_DIR$/BLE_Remocon.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://X:\BLE_Remocon\app\app.iml" filepath="X:\BLE_Remocon\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
     </modules>
   </component>
 </project>
