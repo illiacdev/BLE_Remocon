@@ -16,8 +16,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
     dataBinding {
         enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -29,4 +35,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation project(':mylibrary')
+    // https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation project(':HFSM')
 }
